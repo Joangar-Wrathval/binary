@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- File Manager !-->
-    <string name="app_name">3D Escáner</string>
     <string name="no_data">No hay modelos 3D</string>
+    <string name="migrating_data">Migrando los datos a una nueva carpeta, por favor espere…</string>
     <string name="name_exists">Ya existe un modelo con el nombre introducido.</string>
     <string name="invalid_name">Nombre de archivo inválido!</string>
-    <string name="delete">Borrar el modelo</string>
+    <string name="delete">Borrar datos</string>
     <string name="capture">Escanear</string>
     <string name="settings">Ajustes</string>
     <string name="scene_res">Elija la resolución de la captura</string>
@@ -25,40 +25,39 @@
     <string name="lowend_device">Tu dispositivo no está certificado con Google Depth API. El rendimiento de la aplicación puede ser limitado.</string>
     <string name="permissions_required">Para la funcionalidad de escaneo 3D se solicitan los permisos de la cámara y del almacenamiento.</string>
     <string name="policy_accepted">He leído y acepto la política de privacidad</string>
+    <string name="more_items">Más artículos</string>
+    <string name="upgrade">Actualizar</string>
+    <string name="storage_bug">La aplicación ha detectado que su dispositivo está afectado por un error de Android que impide el acceso a algunos datos. La aplicación no puede funcionar correctamente hasta que se resuelva el problema.</string>
+    <string name="resolve_manually">Resolver el problema</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descripción:</string>
     <string name="model_name">Nombre del modelo:</string>
     <string name="sketchfab_dialog_title">Subir a Sketchfab</string>
-    <string name="sketchfab_pro">Tenga en cuenta que para un tamaño superior a 50 MB, se requiere una cuenta Sketchfab PRO; de lo contrario, la carga puede fallar.</string>
+    <string name="sketchfab_pro">Tenga en cuenta que para un tamaño superior a 100 MB, se requiere una cuenta Sketchfab PRO; de lo contrario, la carga puede fallar.</string>
     <string name="sketchfab_upload_ready">¡El modelo está comprimido y listo para subir!</string>
     <string name="sketchfab_uploading">Subiendo el modelo a Sketchfab…</string>
+    <string name="shadeless">Sin sombreado</string>
     <string name="tags">Etiquetas:</string>
     <string name="upload">Subir</string>
     <string name="upload_size_is">El tamaño total para cargar es</string>
 
     <!-- Settings !-->
-    <string name="file_manager">Administrador de archivos</string>
+    <string name="privacy_policy">Política de privacidad</string>
     <string name="sensor_usage">Uso de sensores</string>
     <string name="scan_postprocess">Postproceso de escaneo</string>
     <string name="scan_visualisations">Visualizaciones de escaneo</string>
     <string name="scan_parameters">Parámetros de escaneo</string>
-    <string name="scan_profile">Perfil de escaneo</string>
-    <string name="profile_add">Agregar perfil</string>
-    <string name="profile_delete">Borrar perfil</string>
-    <string name="profile_mode">Modo de escaneo</string>
-    <string name="profile_name">Nombre de perfil</string>
-    <string name="profile_new">Nuevo perfil</string>
-    <string name="mode_realtime">Escaneo en realtime</string>
+    <string name="mode_realtime">Escaneo interior/exterior</string>
     <string name="mode_dataset">Captura de datasets</string>
     <string name="mode_face">Escaneo facial</string>
-    <string name="mode_online">Fotogrametría en línea (solo objetos)</string>
     <string name="scan_object">Escaneo de objetos</string>
     <string name="scan_single_room">Escaneo de una habitación</string>
     <string name="scan_large_interior">Escaneo interior grande</string>
     <string name="scan_exterior">Escaneo exterior</string>
     <string name="export_floorplan">Exportar como plano</string>
     <string name="export_pointcloud">Exportar como pointcloud</string>
+    <string name="export_model">Exportar como modelo 3D</string>
     <string name="profile_resolution">Resolución</string>
     <string name="poisson">Sumación de Poisson</string>
     <string name="poisson_summary">Habilite el algoritmo de posprocesamiento para corregir agujeros en la geometría del modelo, tenga en cuenta que este algoritmo no funciona bien con espacios abiertos y puede hacer que el posprocesamiento sea más largo.</string>
@@ -87,8 +86,6 @@
     <string name="align_pose_summary">Captura datos después de presionar un botón, los datos se texturizan inmediatamente.</string>
     <string name="flash_light">Usar linterna</string>
     <string name="flash_light_summary">La linterna facilita el escaneo en lugares oscuros.</string>
-    <string name="photo_mode">Modo de foto manual</string>
-    <string name="photo_mode_summary">Captura datos después de presionar un botón, los datos se texturizan inmediatamente.</string>
     <string name="decimation">Disminuir el número de polígonos</string>
     <string name="decimation_summary">Como parte del posprocesamiento, existe un proceso llamado diezmado que disminuye la cantidad de polígonos.</string>
     <string-array name="decimation_names">
@@ -113,6 +110,14 @@
     </string-array>
     <string name="clearing">Limpieza de espacio</string>
     <string name="clearing_summary">Esta función borra los datos de la escena que solo estaban visibles temporalmente.</string>
+    <string name="store_photos">Conservar las fotos capturadas</string>
+    <string name="store_photos_summary">Almacena las fotos capturadas junto con el escaneo 3D.</string>
+    <string name="gltf">Guardar el modelo en GLTF</string>
+    <string name="gltf_summary">Los datos almacenados en formato GLTF se almacenan incluyendo todas las características del kit de modelado 3D.</string>
+    <string name="pbr">Generar texturas PBR</string>
+    <string name="pbr_summary">Las texturas PBR hacen que el modelo se vea mejor en la realidad aumentada o virtual.</string>
+    <string name="information">Información</string>
+    <string name="social_networks">Redes sociales</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colores</string>
@@ -173,17 +178,7 @@
     <string name="online_coverage">Escaneado completo:</string>
     <string name="online_limit">Parece que has hecho una cantidad demasiado grande de escaneos recientemente. Inténtalo de nuevo más tarde.</string>
 
-    <!-- Pro dialog !-->
-    <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery</string>
-    <string name="upgrade">Actualizar</string>
-    <string name="upgrade1">¿Tiene un dispositivo con un sensor ToF compatible? Si es así, entonces considere comprar la versión Pro de esta aplicación.</string>
-    <string name="upgrade2">La versión Pro no contiene publicidad, admite resoluciones más altas y ofrece más funciones.</string>
-    <string name="upgrade3">Puede seguir el progreso del desarrollo en los siguientes sitios:</string>
-
     <!-- Scan dialog !-->
-    <string name="scan_1_4cm">0.25 cm - Grandes objetos</string>
-    <string name="scan_1_2cm">0.5 cm - Composición</string>
     <string name="scan_1cm">1 cm - Cuarto pequeño</string>
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>

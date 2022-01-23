@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- File Manager !-->
-    <string name="app_name">3D Scanner</string>
     <string name="no_data">Žádné 3D modely</string>
+    <string name="migrating_data">Migrace dat do nové složky, počkejte prosím…</string>
     <string name="name_exists">Model s zadaným jménem už existuje.</string>
     <string name="invalid_name">Neplatné jméno!</string>
-    <string name="delete">Vymazat model</string>
+    <string name="delete">Odstranit data</string>
     <string name="capture">Skenovat</string>
     <string name="settings">Nastavení</string>
     <string name="scene_res">Vyberte rozlišení skenování</string>
@@ -25,40 +25,39 @@
     <string name="lowend_device">Vaše zařízení není certifikováno pomocí rozhraní Google Depth API. Výkon aplikace může být omezený.</string>
     <string name="permissions_required">Pro funkci 3D skenování jsou vyžadována oprávnění pro kameru a úložiště.</string>
     <string name="policy_accepted">Přečetl/a jsem si zásady ochrany osobních údajů a souhlasím s nimi</string>
+    <string name="more_items">Více položek</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="storage_bug">Aplikace zjistila, že vaše zařízení je postiženo chybou systému Android, která znemožňuje přístup k některým datům. Aplikace nemůže pracovat správně, dokud se problém nevyřeší.\n\Tento problém lze vyřešit pouze ručně.</string>
+    <string name="resolve_manually">Řešení problému</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Popis:</string>
     <string name="model_name">Jméno modelu:</string>
     <string name="sketchfab_dialog_title">Nahrát do Sketchfabu</string>
-    <string name="sketchfab_pro">U velikosti nad 50 MB je vyžadován účet Sketchfab PRO, jinak může nahrávání selhat.</string>
+    <string name="sketchfab_pro">U velikosti nad 100 MB je vyžadován účet Sketchfab PRO, jinak může nahrávání selhat.</string>
     <string name="sketchfab_upload_ready">Model je komprimovaný a připravený k nahrání!</string>
     <string name="sketchfab_uploading">Nahrávání modelu do Sketchfabu…</string>
+    <string name="shadeless">Bez stínování</string>
     <string name="tags">Tagy:</string>
     <string name="upload">Nahrát</string>
     <string name="upload_size_is">Celková velikost k nahrání je</string>
 
     <!-- Settings !-->
-    <string name="file_manager">Správce souborů</string>
+    <string name="privacy_policy">Zásady ochrany soukromí</string>
     <string name="sensor_usage">Použití senzorů</string>
     <string name="scan_postprocess">Postproces skenování</string>
     <string name="scan_visualisations">Vizualizace skenování</string>
     <string name="scan_parameters">Parametry skenování</string>
-    <string name="scan_profile">Profil skenování</string>
-    <string name="profile_add">Přidat profil</string>
-    <string name="profile_delete">Smazat profil</string>
-    <string name="profile_mode">Režim skenování</string>
-    <string name="profile_name">Jméno profilu</string>
-    <string name="profile_new">Nový profil</string>
-    <string name="mode_realtime">Realtime skenování</string>
+    <string name="mode_realtime">Vnitřní/venkovní skenování</string>
     <string name="mode_dataset">Zaznamenat dataset</string>
     <string name="mode_face">Skenování obličeje</string>
-    <string name="mode_online">Online fotogrammetrie (pouze objekty)</string>
     <string name="scan_object">Skenování objektů</string>
     <string name="scan_single_room">Skenování jedné místnosti</string>
     <string name="scan_large_interior">Skenování velkého interiéru</string>
     <string name="scan_exterior">Skenování exterioru</string>
     <string name="export_floorplan">Exportovat jako půdorys</string>
     <string name="export_pointcloud">Exportovat jako pointcloud</string>
+    <string name="export_model">Exportovat jako 3D model</string>
     <string name="profile_resolution">Rozlišení</string>
     <string name="poisson">Poissonova rekonstrukce</string>
     <string name="poisson_summary">Povolte postprocesní algoritmus k opravě děr v geometrii modelu. Pamatujte, že tento algoritmus nefunguje dobře s otevřenými prostory a může postprocesing prodloužit.</string>
@@ -87,8 +86,6 @@
     <string name="align_pose_summary">Upravuje polohu zařízení pro zvýšení kvality textury. Díky této možnosti je snímání mnohem pomalejší.</string>
     <string name="flash_light">Použít svítilnu</string>
     <string name="flash_light_summary">Svítilna usnadňuje skenování na tmavých místech.</string>
-    <string name="photo_mode">Manuální foto režim</string>
-    <string name="photo_mode_summary">Zachycuje data po stisknutí tlačítka, data jsou okamžitě texturována.</string>
     <string name="decimation">Snížit počet polygonů</string>
     <string name="decimation_summary">Součástí postprocesingu je proces zvaný decimace, který snižuje množství polygonů.</string>
     <string-array name="decimation_names">
@@ -113,6 +110,14 @@
     </string-array>
     <string name="clearing">Vyčištění prostoru</string>
     <string name="clearing_summary">Tato funkce vymaže data ze scény, která byla viditelná pouze dočasně.</string>
+    <string name="store_photos">Uchovávat pořízené fotografie</string>
+    <string name="store_photos_summary">Ukládá pořízené fotografie spolu s 3D skenem.</string>
+    <string name="gltf">Uložení modelu v GLTF</string>
+    <string name="gltf_summary">Data uložená ve formátu GLTF jsou uložena včetně všech funkcí sady 3D Modeling Kit.</string>
+    <string name="pbr">Generování textur PBR</string>
+    <string name="pbr_summary">Díky texturám PBR vypadá model lépe v rozšířené nebo virtuální realitě.</string>
+    <string name="information">Informace</string>
+    <string name="social_networks">Sociální sítě</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Barvy</string>
@@ -173,17 +178,7 @@
     <string name="online_coverage">Úplnost skenování:</string>
     <string name="online_limit">Zdá se, že jste v poslední době provedli příliš velké množství skenů. Zkuste to znovu později.</string>
 
-    <!-- Pro dialog !-->
-    <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery</string>
-    <string name="upgrade">Upgrade</string>
-    <string name="upgrade1">Máte zařízení s podporovaným ToF senzorem? Pokud ano, zvažte koupi Pro verze této aplikace.</string>
-    <string name="upgrade2">Pro verze neobsahuje reklamy, podporuje vyšší rozlišení a poskytuje více funkcí.</string>
-    <string name="upgrade3">Progres vývoje můžete sledovat na těchto portálech:</string>
-
     <!-- Scan dialog !-->
-    <string name="scan_1_4cm">0.25 cm - Velké objekty</string>
-    <string name="scan_1_2cm">0.5 cm - Kompozice</string>
     <string name="scan_1cm">1 cm - Malá místnost</string>
     <string name="scan_2cm">2 cm - Interior</string>
     <string name="scan_4cm">4 cm - Exterior</string>

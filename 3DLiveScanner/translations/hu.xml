@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- File Manager !-->
-    <string name="app_name">3D Szkenner</string>
     <string name="no_data">Nincsenek 3D-s modellek</string>
+    <string name="migrating_data">Az adatok áttelepítése egy új mappába, kérjük várjon…</string>
     <string name="name_exists">Egy modell a nevével van.</string>
     <string name="invalid_name">Rossz a fájl neve!</string>
-    <string name="delete">Modell törlése</string>
+    <string name="delete">Adatok törlése</string>
     <string name="capture">Szkennelés</string>
     <string name="settings">Beállítások</string>
     <string name="scene_res">Válasszdd ki a felbontást</string>
@@ -25,40 +25,39 @@
     <string name="lowend_device">Az Ön készüléke nem rendelkezik a Google Depth API tanúsítványával. Az alkalmazás teljesítménye korlátozott lehet.</string>
     <string name="permissions_required">A 3D szkennelési funkcióhoz a kamera és a tárolási engedélyek szükségesek.</string>
     <string name="policy_accepted">Elolvastam és elfogadom az adatvédelmi szabályzatot</string>
+    <string name="more_items">További tételek</string>
+    <string name="upgrade">Fejlesztés</string>
+    <string name="storage_bug">Az alkalmazás észlelte, hogy az Ön készülékét egy olyan Android-hiba érinti, amely megakadályozza a hozzáférést bizonyos adatokhoz. Az alkalmazás nem tud megfelelően működni, amíg a probléma meg nem oldódik.\n\nEz a probléma csak manuálisan oldható meg.</string>
+    <string name="resolve_manually">A probléma megoldása</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Leírás:</string>
     <string name="model_name">Modell név:</string>
     <string name="sketchfab_dialog_title">Feltöltés a Sketchfabbe</string>
-    <string name="sketchfab_pro">Ne feledje, hogy 50 MB feletti mérethez Sketchfab PRO fiókra van szükség, különben a feltöltés sikertelen lehet.</string>
+    <string name="sketchfab_pro">Ne feledje, hogy 100 MB feletti mérethez Sketchfab PRO fiókra van szükség, különben a feltöltés sikertelen lehet.</string>
     <string name="sketchfab_upload_ready">A modell tömörítve van és feltöltésre kész!</string>
     <string name="sketchfab_uploading">A modell feltöltése a Sketchfab-ba…</string>
+    <string name="shadeless">Árnyékolás nélkül</string>
     <string name="tags">Címkék:</string>
     <string name="upload">Feltöltés</string>
     <string name="upload_size_is">A feltöltendő teljes méret</string>
 
     <!-- Settings !-->
-    <string name="file_manager">Fájl kezelő</string>
+    <string name="privacy_policy">Adatvédelmi szabályzat</string>
     <string name="sensor_usage">Az érzékelők használata</string>
     <string name="scan_postprocess">Beolvasás utófeldolgozás</string>
     <string name="scan_visualisations">Vizualizációk beolvasása</string>
     <string name="scan_parameters">Szkennelési paraméterek</string>
-    <string name="scan_profile">Szkennelési profil</string>
-    <string name="profile_add">Profil hozzáadása</string>
-    <string name="profile_delete">Profil törlése</string>
-    <string name="profile_mode">Szkennelési mód</string>
-    <string name="profile_name">Profil neve</string>
-    <string name="profile_new">Új profil</string>
-    <string name="mode_realtime">Realtime szkennelés</string>
+    <string name="mode_realtime">Beltéri/kültéri szkennelés</string>
     <string name="mode_dataset">Dataset rögzítés</string>
     <string name="mode_face">Arc szkennelés</string>
-    <string name="mode_online">Online fotogrammetria (csak objektumok)</string>
     <string name="scan_object">Tárgyak szkennelése</string>
     <string name="scan_single_room">Egyágyas szoba szkennelése</string>
     <string name="scan_large_interior">Nagy belső szkennelés</string>
     <string name="scan_exterior">Külső szkennelés</string>
     <string name="export_floorplan">Exportálás alaprajzként</string>
     <string name="export_pointcloud">Exportálás pointcloud</string>
+    <string name="export_model">Exportálás 3D modellként</string>
     <string name="profile_resolution">Felbontás</string>
     <string name="poisson">Rekonstrukció elemzése</string>
     <string name="poisson_summary">Engedélyezze az utófeldolgozási algoritmust a modellgeometriában lévő lyukak kijavításához, vegye figyelembe, hogy ez az algoritmus nem működik jól a nyitott tereknél, és meghosszabbíthatja az utófeldolgozást.</string>
@@ -87,8 +86,6 @@
     <string name="align_pose_summary">A textúra minőségének növelése érdekében beállítja az eszköz helyzetét. Ez az opció sokkal lassabbá teszi a rögzítést.</string>
     <string name="flash_light">Használjon zseblámpát</string>
     <string name="flash_light_summary">A zseblámpa megkönnyíti a szkennelést sötét helyeken.</string>
-    <string name="photo_mode">Manuális fénykép mód</string>
-    <string name="photo_mode_summary">Gombnyomás után rögzíti az adatokat, az adatok azonnal texturálódnak.</string>
     <string name="decimation">Csökkentse a sokszög számát</string>
     <string name="decimation_summary">Az utófeldolgozás részeként van egy decimációnak nevezett folyamat, amely csökkenti a sokszögek mennyiségét.</string>
     <string-array name="decimation_names">
@@ -113,6 +110,14 @@
     </string-array>
     <string name="clearing">Helytisztítás</string>
     <string name="clearing_summary">Ez a szolgáltatás törli azokat az adatokat a jelenetből, amelyek csak ideiglenesen voltak láthatóak.</string>
+    <string name="store_photos">Felvett fényképek megőrzése</string>
+    <string name="store_photos_summary">A 3D szkennelés mellett tárolja a rögzített fényképeket.</string>
+    <string name="gltf">Modell mentése GLTF-ben</string>
+    <string name="gltf_summary">A GLTF formátumban tárolt adatok az összes 3D Modeling Kit funkciót tartalmazzák.</string>
+    <string name="pbr">PBR textúrák generálása</string>
+    <string name="pbr_summary">A PBR textúráknak köszönhetően a modell jobban néz ki a kiterjesztett vagy virtuális valóságban.</string>
+    <string name="information">Információ</string>
+    <string name="social_networks">Szociális hálózatok</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Színek</string>
@@ -173,17 +178,7 @@
     <string name="online_coverage">Szkennelés teljessége:</string>
     <string name="online_limit">Úgy tűnik, túl sok vizsgálatot végeztél mostanában. Próbálja meg később újra.</string>
 
-    <!-- Pro dialog !-->
-    <string name="buy_google">Google Play</string>
-    <string name="buy_huawei">Huawei AppGallery</string>
-    <string name="upgrade">Fejlesztés</string>
-    <string name="upgrade1">Van egy ToF szenzorral felszerelt eszközöd? Ha igen, ajánlom neked a fejlettebb verziót.</string>
-    <string name="upgrade2">A fejlettebb verzió gyorsabb és magasabb felbontású szkennelés tartalmaz.</string>
-    <string name="upgrade3">A használati útmutatót folytathatod a következő oldalon:</string>
-
     <!-- Scan dialog !-->
-    <string name="scan_1_4cm">0.25 cm - Nagy objektek</string>
-    <string name="scan_1_2cm">0.5 cm - Összeállítás</string>
     <string name="scan_1cm">1 cm - Kicsi szoba</string>
     <string name="scan_2cm">2 cm - Közepes</string>
     <string name="scan_4cm">4 cm - Nagy</string>
