@@ -43,6 +43,7 @@
     <string name="upload_size_is">La dimensione totale da caricare è</string>
 
     <!-- Settings !-->
+    <string name="analyse_summary">Analizzare le foto prima del texturing e assicurarsi che vengano usate solo foto buone.</string>
     <string name="privacy_policy">Politica sulla privacy</string>
     <string name="sensor_usage">Utilizzo dei sensori</string>
     <string name="scan_postprocess">Postprocesso di scansione</string>
@@ -160,6 +161,7 @@
     <string name="working">L\'applicazione funziona, per favore non spegnere il dispositivo e non avviare un\'altra applicazione AR.</string>
 
     <!-- Event !-->
+    <string name="event_analyse">Analisi delle foto</string>
     <string name="event_features">Problemi di rilevamento del movimento rilevati</string>
     <string name="event_convert">Conversione dei dati</string>
     <string name="event_image">Conversione dei dati</string>

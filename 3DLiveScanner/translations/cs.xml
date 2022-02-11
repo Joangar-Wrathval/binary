@@ -43,6 +43,7 @@
     <string name="upload_size_is">Celková velikost k nahrání je</string>
 
     <!-- Settings !-->
+    <string name="analyse_summary">Před texturováním analyzujte fotografie a zajistěte, aby byly použity pouze kvalitní fotografie.</string>
     <string name="privacy_policy">Zásady ochrany soukromí</string>
     <string name="sensor_usage">Použití senzorů</string>
     <string name="scan_postprocess">Postproces skenování</string>
@@ -160,6 +161,7 @@
     <string name="working">Aplikace pracuje, prosím nevypínejte zařízení a nespouštějte jinou AR aplikaci.</string>
 
     <!-- Event !-->
+    <string name="event_analyse">Analýza fotek</string>
     <string name="event_features">Sledování pohybu detekovalo problém</string>
     <string name="event_convert">Konvertuji data</string>
     <string name="event_image">Zpracovávám fotku</string>

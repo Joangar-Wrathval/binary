@@ -43,6 +43,7 @@
     <string name="upload_size_is">Die Gesamtgröße zum Hochladen beträgt</string>
 
     <!-- Settings !-->
+    <string name="analyse_summary">Analysieren Sie die Fotos vor der Texturierung und stellen Sie sicher, dass nur gute Fotos verwendet werden.</string>
     <string name="privacy_policy">Datenschutzbestimmungen</string>
     <string name="sensor_usage">Verwendung von Sensoren</string>
     <string name="scan_postprocess">Scan-Nachprozess</string>
@@ -160,6 +161,7 @@
     <string name="working">Die App arbeitet. Bitte schalten Sie das Gerät nicht aus und starten Sie keine andere AR-Applikation.</string>
 
     <!-- Event !-->
+    <string name="event_analyse">Analyse der Fotos</string>
     <string name="event_features">Motion Tracking erkannte Probleme</string>
     <string name="event_convert">Konvertierung von Daten</string>
     <string name="event_image">Bearbeitung von Fotos</string>

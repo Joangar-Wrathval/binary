@@ -43,6 +43,7 @@
     <string name="upload_size_is">Общий размер для загрузки</string>
 
     <!-- Settings !-->
+    <string name="analyse_summary">Проанализируйте фотографии перед текстурированием и убедитесь, что используются только хорошие фотографии.</string>
     <string name="privacy_policy">Политика конфиденциальности</string>
     <string name="sensor_usage">Использование датчиков</string>
     <string name="scan_postprocess">Постпроцесс сканирования</string>
@@ -160,6 +161,7 @@
     <string name="working">Приложение находится в работе, пожалуйста не отключайте устройства и не запускайте другое AR приложение.</string>
 
     <!-- Event !-->
+    <string name="event_analyse">Анализ фотографий</string>
     <string name="event_features">отслеживатель движений обнаружил проблему</string>
     <string name="event_convert">преобразование данных</string>
     <string name="event_image">обработка фото</string>

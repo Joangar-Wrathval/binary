@@ -43,6 +43,7 @@
     <string name="upload_size_is">A feltöltendő teljes méret</string>
 
     <!-- Settings !-->
+    <string name="analyse_summary">Textúrázás előtt elemezze a fényképeket, és biztosítsa, hogy csak jó fényképeket használjon.</string>
     <string name="privacy_policy">Adatvédelmi szabályzat</string>
     <string name="sensor_usage">Az érzékelők használata</string>
     <string name="scan_postprocess">Beolvasás utófeldolgozás</string>
@@ -160,6 +161,7 @@
     <string name="working">Az app dolgozik ne kapcsold ki a telefont és ne indíts el új AR appot.</string>
 
     <!-- Event !-->
+    <string name="event_analyse">Fotók elemzése</string>
     <string name="event_features">Problémák a meghatározással!</string>
     <string name="event_convert">Adat töltése</string>
     <string name="event_image">Fotó számítása</string>

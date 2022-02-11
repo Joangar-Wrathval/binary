@@ -44,6 +44,7 @@
     <string name="upload_size_is">Total size to upload is</string>
 
     <!-- Settings !-->
+    <string name="analyse_summary">Analyze photos before texturing and ensure only good photos are used.</string>
     <string name="privacy_policy">Privacy policy</string>
     <string name="sensor_usage">Sensors usage</string>
     <string name="scan_postprocess">Scanning postprocess</string>
@@ -161,6 +162,7 @@
     <string name="working">The app is working, please do not turn off the device and do not start another AR app.</string>
 
     <!-- Event !-->
+    <string name="event_analyse">Photos analysis</string>
     <string name="event_features">Motion tracking detected issues</string>
     <string name="event_convert">Converting data</string>
     <string name="event_image">Processing photo</string>

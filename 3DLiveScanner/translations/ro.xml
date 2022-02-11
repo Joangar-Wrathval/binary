@@ -43,6 +43,7 @@
     <string name="upload_size_is">Dimensiunea totală de încărcat este</string>
 
     <!-- Settings !-->
+    <string name="analyse_summary">Analizați fotografiile înainte de texturare și asigurați-vă că sunt folosite numai fotografii bune.</string>
     <string name="privacy_policy">Politica de confidențialitate</string>
     <string name="sensor_usage">Utilizarea senzorilor</string>
     <string name="scan_postprocess">Scanare postproces</string>
@@ -160,6 +161,7 @@
     <string name="working">Aplicația funcționează. Te rugăm nu stinge dispozitivul și nu inția altă aplicație de tip AR.</string>
 
     <!-- Event !-->
+    <string name="event_analyse">Analiza fotografiilor</string>
     <string name="event_features">Senzorul de mișcare a detectat probleme</string>
     <string name="event_convert">Conversie date</string>
     <string name="event_image">Procesare foto</string>
