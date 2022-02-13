@@ -27,6 +27,7 @@
     <string name="policy_accepted">Am citit și accept politica de confidențialitate</string>
     <string name="more_items">Mai multe articole</string>
     <string name="upgrade">Actualizare</string>
+    <string name="upgrade_details">În comparație cu versiunea gratuită, versiunea cu plată oferă mai multe setări, fără reclame și posibilitatea de a captura un set de date. Cu ajutorul acesteia puteți:\n- exporta planul etajului\n- exporta pointcloud brut</string>
     <string name="storage_bug">Aplicația a detectat că dispozitivul dvs. este afectat de o eroare Android care împiedică accesul la anumite date. Aplicația nu poate funcționa corect până când problema nu este rezolvată.\n\nAceastă problemă poate fi rezolvată doar manual.</string>
     <string name="resolve_manually">Rezolvarea problemei</string>
 

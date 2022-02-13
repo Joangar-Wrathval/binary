@@ -27,6 +27,7 @@
     <string name="policy_accepted">Přečetl/a jsem si zásady ochrany osobních údajů a souhlasím s nimi</string>
     <string name="more_items">Více položek</string>
     <string name="upgrade">Upgrade</string>
+    <string name="upgrade_details">Ve srovnání s bezplatnou verzí nabízí placená verze více nastavení, žádné reklamy a možnost zachytit datovou sadu. Pomocí ní můžete:\n- exportovat půdorys\n- exportovat nezpracované mračno bodů</string>
     <string name="storage_bug">Aplikace zjistila, že vaše zařízení je postiženo chybou systému Android, která znemožňuje přístup k některým datům. Aplikace nemůže pracovat správně, dokud se problém nevyřeší.\n\Tento problém lze vyřešit pouze ručně.</string>
     <string name="resolve_manually">Řešení problému</string>
 

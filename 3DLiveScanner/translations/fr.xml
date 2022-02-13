@@ -27,6 +27,7 @@
     <string name="policy_accepted">J\'ai lu et j\'accepte la politique de confidentialité</string>
     <string name="more_items">Autres articles</string>
     <string name="upgrade">Actualiser</string>
+    <string name="upgrade_details">Par rapport à la version gratuite, la version payante offre plus de paramètres, aucune publicité et la possibilité de capturer un ensemble de données. En utilisant cette fonction, vous pouvez:\n- exporter un plan d\'étage\n - exporter un nuage de points brut</string>
     <string name="storage_bug">L\'application a détecté que votre appareil est affecté par un bogue Android qui empêche l\'accès à certaines données. L\'application ne peut pas fonctionner correctement tant que le problème n\'est pas résolu.\n\nCe problème peut être résolu manuellement uniquement.</string>
     <string name="resolve_manually">Résoudre le problème</string>
 

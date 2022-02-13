@@ -27,6 +27,7 @@
     <string name="policy_accepted">Elolvastam és elfogadom az adatvédelmi szabályzatot</string>
     <string name="more_items">További tételek</string>
     <string name="upgrade">Fejlesztés</string>
+    <string name="upgrade_details">Az ingyenes verzióhoz képest a fizetős változat több beállítást kínál, nincs reklám és lehetőség van adathalmaz rögzítésére. Ennek segítségével:\n- alaprajz exportálása\n- nyers pontfelhő exportálása</string>
     <string name="storage_bug">Az alkalmazás észlelte, hogy az Ön készülékét egy olyan Android-hiba érinti, amely megakadályozza a hozzáférést bizonyos adatokhoz. Az alkalmazás nem tud megfelelően működni, amíg a probléma meg nem oldódik.\n\nEz a probléma csak manuálisan oldható meg.</string>
     <string name="resolve_manually">A probléma megoldása</string>
 

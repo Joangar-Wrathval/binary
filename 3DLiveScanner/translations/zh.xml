@@ -27,6 +27,7 @@
     <string name="policy_accepted">我阅读并接受隐私政策</string>
     <string name="more_items">更多项目</string>
     <string name="upgrade">升级</string>
+    <string name="upgrade_details">与免费版相比，付费版提供了更多的设置，没有广告，并有可能捕获数据集。使用它，你可以：\n- 导出平面图\n- 导出原始点云。</string>
     <string name="storage_bug">该应用程序已经检测到您的设备受到了一个安卓错误的影响，该错误阻止了对某些数据的访问。在问题得到解决之前，该应用程序无法正常工作。这个问题只能手动解决。</string>
     <string name="resolve_manually">解决问题</string>
 
