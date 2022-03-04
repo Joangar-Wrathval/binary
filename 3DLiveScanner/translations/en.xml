@@ -31,6 +31,8 @@
     <string name="upgrade_details">In comparison to the free version, the paid version offers more settings, no ads and possibility to capture a dataset. Using that you can:\n- export floorplan\n- export raw pointcloud</string>
     <string name="storage_bug">The app has detected that your device is affected by an Android bug that prevents access to some data. The app cannot work properly until the problem get resolved.\n\nThis problem can be resolved manually only.</string>
     <string name="resolve_manually">Resolve the problem</string>
+    <string name="show_normals">Show normals</string>
+    <string name="photo_mode">Photo mode</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Description:</string>

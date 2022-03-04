@@ -30,6 +30,8 @@
     <string name="upgrade_details">Im Vergleich zur kostenlosen Version bietet die kostenpflichtige Version mehr Einstellungen, keine Werbung und die Möglichkeit, einen Datensatz zu erfassen. Damit können Sie: \n- Grundriss exportieren\n- Rohpunktwolke exportieren</string>
     <string name="storage_bug">Die App hat festgestellt, dass Ihr Gerät von einem Android-Fehler betroffen ist, der den Zugriff auf einige Daten verhindert. Die App kann nicht richtig funktionieren, bis das Problem behoben ist.\n\nDieses Problem kann nur manuell behoben werden.</string>
     <string name="resolve_manually">Lösung des Problems</string>
+    <string name="show_normals">Normalen anzeigen</string>
+    <string name="photo_mode">Foto-Modus</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Beschreibung:</string>

@@ -30,6 +30,8 @@
     <string name="upgrade_details">Rispetto alla versione gratuita, la versione a pagamento offre più impostazioni, nessuna pubblicità e la possibilità di catturare un set di dati. Usando questo è possibile:\n- esportare la planimetria\n- esportare la nuvola di punti grezzi</string>
     <string name="storage_bug">L\'applicazione ha rilevato che il tuo dispositivo è affetto da un bug di Android che impedisce l\'accesso ad alcuni dati. L\'app non può funzionare correttamente finché il problema non viene risolto. Questo problema può essere risolto solo manualmente.</string>
     <string name="resolve_manually">Risolvere il problema</string>
+    <string name="show_normals">Mostra le norme</string>
+    <string name="photo_mode">Modalità foto</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descrizione:</string>

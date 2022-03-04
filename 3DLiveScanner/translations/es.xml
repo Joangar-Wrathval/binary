@@ -30,6 +30,8 @@
     <string name="upgrade_details">En comparación con la versión gratuita, la versión de pago ofrece más ajustes, sin anuncios y la posibilidad de capturar un conjunto de datos. Con ello puedes:\n- exportar planos de planta\n- exportar nubes de puntos sin procesar</string>
     <string name="storage_bug">La aplicación ha detectado que su dispositivo está afectado por un error de Android que impide el acceso a algunos datos. La aplicación no puede funcionar correctamente hasta que se resuelva el problema.</string>
     <string name="resolve_manually">Resolver el problema</string>
+    <string name="show_normals">Mostrar normales</string>
+    <string name="photo_mode">Modo foto</string>
 
     <!-- Sketchfab uploader !-->
     <string name="description">Descripción:</string>
