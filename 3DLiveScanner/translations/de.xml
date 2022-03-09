@@ -40,7 +40,6 @@
     <string name="sketchfab_pro">Beachten Sie, dass für eine Größe über 100 MB ein Sketchfab PRO-Konto erforderlich ist, da sonst der Upload fehlschlagen kann.</string>
     <string name="sketchfab_upload_ready">Modell ist komprimiert und bereit zum Hochladen!</string>
     <string name="sketchfab_uploading">Hochladen des Modells auf Sketchfab…</string>
-    <string name="shadeless">Ohne Schattierung</string>
     <string name="tags">Etikett:</string>
     <string name="upload">Hochladen</string>
     <string name="upload_size_is">Die Gesamtgröße zum Hochladen beträgt</string>
@@ -114,12 +113,6 @@
     </string-array>
     <string name="clearing">Space Clearing</string>
     <string name="clearing_summary">Diese Funktion löscht Daten aus Szenen, die nur vorübergehend sichtbar waren.</string>
-    <string name="store_photos">Aufgenommene Fotos aufbewahren</string>
-    <string name="store_photos_summary">Speichert die aufgenommenen Fotos zusammen mit dem 3D-Scan.</string>
-    <string name="gltf">Modell in GLTF speichern</string>
-    <string name="gltf_summary">Im GLTF-Format gespeicherte Daten werden einschließlich aller 3D Modeling Kit Features gespeichert.</string>
-    <string name="pbr">PBR-Texturen generieren</string>
-    <string name="pbr_summary">PBR-Texturen lassen das Modell in der erweiterten oder virtuellen Realität besser aussehen.</string>
     <string name="information">Informationen</string>
     <string name="social_networks">Soziale Netzwerke</string>
 

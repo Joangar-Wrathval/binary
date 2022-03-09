@@ -40,7 +40,6 @@
     <string name="sketchfab_pro">请注意，如果大小超过100 MB，则需要一个Sketchfab PRO帐户，否则上传可能会失败。</string>
     <string name="sketchfab_upload_ready">模型已压缩，可以上传！</string>
     <string name="sketchfab_uploading">将模型上传到Sketchfab…</string>
-    <string name="shadeless">无遮挡</string>
     <string name="tags">标签:</string>
     <string name="upload">上载</string>
     <string name="upload_size_is">要上传的总大小为</string>
@@ -114,12 +113,6 @@
     </string-array>
     <string name="clearing">空間清理</string>
     <string name="clearing_summary">此功能從場景中清除僅臨時可見的數據。</string>
-    <string name="store_photos">保存拍摄的照片</string>
-    <string name="store_photos_summary">将捕获的照片与3D扫描一起存储。</string>
-    <string name="gltf">在GLTF中保存模型</string>
-    <string name="gltf_summary">以GLTF格式存储的数据包括所有3D建模工具包的功能。</string>
-    <string name="pbr">生成PBR纹理</string>
-    <string name="pbr_summary">PBR纹理使模型在增强型或虚拟现实中看起来更好。</string>
     <string name="information">信息</string>
     <string name="social_networks">社会网络</string>
 

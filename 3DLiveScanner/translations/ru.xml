@@ -40,7 +40,6 @@
     <string name="sketchfab_pro">Обратите внимание, что для размера более 100 МБ требуется учетная запись Sketchfab PRO, в противном случае загрузка может завершиться ошибкой.</string>
     <string name="sketchfab_upload_ready">Модель сжата и готова к загрузке!</string>
     <string name="sketchfab_uploading">Загрузка модели в Sketchfab…</string>
-    <string name="shadeless">Без затенения</string>
     <string name="tags">Теги:</string>
     <string name="upload">Загрузить</string>
     <string name="upload_size_is">Общий размер для загрузки</string>
@@ -114,12 +113,6 @@
     </string-array>
     <string name="clearing">Расчистка космоса</string>
     <string name="clearing_summary">Эта функция удаляет данные со сцены, которые были видны только временно.</string>
-    <string name="store_photos">Храните отснятые фотографии</string>
-    <string name="store_photos_summary">Сохраняет сделанные фотографии вместе с 3D-сканированием.</string>
-    <string name="gltf">Сохранить модель в GLTF</string>
-    <string name="gltf_summary">Данные, сохраненные в формате GLTF, хранятся с учетом всех возможностей 3D Modeling Kit.</string>
-    <string name="pbr">Генерировать текстуры PBR</string>
-    <string name="pbr_summary">Текстуры PBR позволяют модели лучше выглядеть в дополненной или виртуальной реальности.</string>
     <string name="information">Информация</string>
     <string name="social_networks">Социальные сети</string>
 

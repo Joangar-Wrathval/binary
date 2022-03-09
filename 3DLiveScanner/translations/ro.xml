@@ -40,7 +40,6 @@
     <string name="sketchfab_pro">Rețineți că pentru dimensiuni de peste 100 MB este necesar un cont Sketchfab PRO, altfel încărcarea poate eșua.</string>
     <string name="sketchfab_upload_ready">Modelul este comprimat și gata de încărcare!</string>
     <string name="sketchfab_uploading">Încărcarea modelului în Sketchfab…</string>
-    <string name="shadeless">Fără umbrire</string>
     <string name="tags">Etichete:</string>
     <string name="upload">Încărcare</string>
     <string name="upload_size_is">Dimensiunea totală de încărcat este</string>
@@ -114,12 +113,6 @@
     </string-array>
     <string name="clearing">Eliberarea spațiului</string>
     <string name="clearing_summary">Această caracteristică șterge datele din scenă care erau vizibile doar temporar.</string>
-    <string name="store_photos">Păstrați fotografiile capturate</string>
-    <string name="store_photos_summary">Stochează fotografiile capturate împreună cu scanarea 3D.</string>
-    <string name="gltf">Salvarea modelului în GLTF</string>
-    <string name="gltf_summary">Datele stocate în format GLTF sunt stocate inclusiv toate caracteristicile kitului de modelare 3D.</string>
-    <string name="pbr">Generarea de texturi PBR</string>
-    <string name="pbr_summary">Texturile PBR fac ca modelul să arate mai bine în realitatea augmentată sau virtuală.</string>
     <string name="information">Informații</string>
     <string name="social_networks">Rețele sociale</string>
 

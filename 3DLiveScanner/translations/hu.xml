@@ -40,7 +40,6 @@
     <string name="sketchfab_pro">Ne feledje, hogy 100 MB feletti mérethez Sketchfab PRO fiókra van szükség, különben a feltöltés sikertelen lehet.</string>
     <string name="sketchfab_upload_ready">A modell tömörítve van és feltöltésre kész!</string>
     <string name="sketchfab_uploading">A modell feltöltése a Sketchfab-ba…</string>
-    <string name="shadeless">Árnyékolás nélkül</string>
     <string name="tags">Címkék:</string>
     <string name="upload">Feltöltés</string>
     <string name="upload_size_is">A feltöltendő teljes méret</string>
@@ -114,12 +113,6 @@
     </string-array>
     <string name="clearing">Helytisztítás</string>
     <string name="clearing_summary">Ez a szolgáltatás törli azokat az adatokat a jelenetből, amelyek csak ideiglenesen voltak láthatóak.</string>
-    <string name="store_photos">Felvett fényképek megőrzése</string>
-    <string name="store_photos_summary">A 3D szkennelés mellett tárolja a rögzített fényképeket.</string>
-    <string name="gltf">Modell mentése GLTF-ben</string>
-    <string name="gltf_summary">A GLTF formátumban tárolt adatok az összes 3D Modeling Kit funkciót tartalmazzák.</string>
-    <string name="pbr">PBR textúrák generálása</string>
-    <string name="pbr_summary">A PBR textúráknak köszönhetően a modell jobban néz ki a kiterjesztett vagy virtuális valóságban.</string>
     <string name="information">Információ</string>
     <string name="social_networks">Szociális hálózatok</string>
 

@@ -40,7 +40,6 @@
     <string name="sketchfab_pro">U velikosti nad 100 MB je vyžadován účet Sketchfab PRO, jinak může nahrávání selhat.</string>
     <string name="sketchfab_upload_ready">Model je komprimovaný a připravený k nahrání!</string>
     <string name="sketchfab_uploading">Nahrávání modelu do Sketchfabu…</string>
-    <string name="shadeless">Bez stínování</string>
     <string name="tags">Tagy:</string>
     <string name="upload">Nahrát</string>
     <string name="upload_size_is">Celková velikost k nahrání je</string>
@@ -114,12 +113,6 @@
     </string-array>
     <string name="clearing">Vyčištění prostoru</string>
     <string name="clearing_summary">Tato funkce vymaže data ze scény, která byla viditelná pouze dočasně.</string>
-    <string name="store_photos">Uchovávat pořízené fotografie</string>
-    <string name="store_photos_summary">Ukládá pořízené fotografie spolu s 3D skenem.</string>
-    <string name="gltf">Uložení modelu v GLTF</string>
-    <string name="gltf_summary">Data uložená ve formátu GLTF jsou uložena včetně všech funkcí sady 3D Modeling Kit.</string>
-    <string name="pbr">Generování textur PBR</string>
-    <string name="pbr_summary">Díky texturám PBR vypadá model lépe v rozšířené nebo virtuální realitě.</string>
     <string name="information">Informace</string>
     <string name="social_networks">Sociální sítě</string>
 
