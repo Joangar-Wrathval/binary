@@ -21,8 +21,6 @@
     <string name="folder_new">New folder</string>
     <string name="folder_up">(Parent folder)</string>
     <string name="data_saved">Data saved as</string>
-    <string name="online_limited">This feature uses an online cloud server. Use this service for free by watching a video ad. Do you want to continue?</string>
-    <string name="online_not_available">The ad wasn\'t shown to the end. If problems stay then check the internet connection or update the app to the latest version.</string>
     <string name="lowend_device">Your device is not certificated with Google Depth API. The app performance might be limited.</string>
     <string name="permissions_required">For 3D scanning functionality the camera and storage permissions are requested.</string>
     <string name="policy_accepted">I read and accept the privacy policy</string>
@@ -55,7 +53,6 @@
     <string name="mode_realtime">Indoor/outdoor scanning</string>
     <string name="mode_dataset">Capture a dataset</string>
     <string name="mode_face">Face scanning</string>
-    <string name="scan_object">Objects scanning</string>
     <string name="scan_single_room">Single room scanning</string>
     <string name="scan_large_interior">Large interior scanning</string>
     <string name="scan_exterior">Exterior scanning</string>
@@ -114,8 +111,6 @@
     </string-array>
     <string name="clearing">Space clearing</string>
     <string name="clearing_summary">This feature clears data from scene which were only temporarily visible.</string>
-    <string name="information">Information</string>
-    <string name="social_networks">Social networks</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Colors</string>
@@ -169,13 +164,6 @@
     <string name="scan_discard">This action will discard the scan progress.</string>
     <string name="scan_finish">Saving will finish the scanning.</string>
     <string name="scan_rewind">Rewind the scan process to a state from which you want to continue.</string>
-    <string name="online_download">Downloading data</string>
-    <string name="online_generating">Generating a model</string>
-    <string name="online_upload">Uploading data</string>
-    <string name="online_waiting">Waiting on the service</string>
-    <string name="online_tip">Once capture has begun, slowly circle around object holding phone steady. For best results, the environment surrounding the object should be as simple as possible.</string>
-    <string name="online_coverage">Scan progress:</string>
-    <string name="online_limit">It seems you did a too big amount of scans recently. Try it again later.</string>
 
     <!-- Scan dialog !-->
     <string name="scan_1cm">1 cm - Small room</string>

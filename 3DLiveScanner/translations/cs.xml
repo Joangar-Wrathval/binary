@@ -20,8 +20,6 @@
     <string name="folder_new">Nová složka</string>
     <string name="folder_up">(Nadřazená složka)</string>
     <string name="data_saved">Data uložena jako</string>
-    <string name="online_limited">Tato funkce využívá online cloudový server. Chcete-li službu použít zdarma, musíte zobrazit videoreklamu. Chcete pokračovat?</string>
-    <string name="online_not_available">Reklama nebyla zobrazena do konce. Pokud problémy přetrvávají, zkontrolujte připojení k internetu nebo aktualizujte aplikaci na nejnovější verzi.</string>
     <string name="lowend_device">Vaše zařízení není certifikováno pomocí rozhraní Google Depth API. Výkon aplikace může být omezený.</string>
     <string name="permissions_required">Pro funkci 3D skenování jsou vyžadována oprávnění pro kameru a úložiště.</string>
     <string name="policy_accepted">Přečetl/a jsem si zásady ochrany osobních údajů a souhlasím s nimi</string>
@@ -54,7 +52,6 @@
     <string name="mode_realtime">Vnitřní/venkovní skenování</string>
     <string name="mode_dataset">Zaznamenat dataset</string>
     <string name="mode_face">Skenování obličeje</string>
-    <string name="scan_object">Skenování objektů</string>
     <string name="scan_single_room">Skenování jedné místnosti</string>
     <string name="scan_large_interior">Skenování velkého interiéru</string>
     <string name="scan_exterior">Skenování exterioru</string>
@@ -113,8 +110,6 @@
     </string-array>
     <string name="clearing">Vyčištění prostoru</string>
     <string name="clearing_summary">Tato funkce vymaže data ze scény, která byla viditelná pouze dočasně.</string>
-    <string name="information">Informace</string>
-    <string name="social_networks">Sociální sítě</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Barvy</string>
@@ -168,13 +163,6 @@
     <string name="scan_discard">Tato akce smaže progres skenování.</string>
     <string name="scan_finish">Uložením se skenování dokončí.</string>
     <string name="scan_rewind">Přetočte proces skenování do stavu, ze kterého chcete pokračovat.</string>
-    <string name="online_download">Stahování dat</string>
-    <string name="online_generating">Generování modelu</string>
-    <string name="online_upload">Nahrávání dat</string>
-    <string name="online_waiting">Čekání na službu</string>
-    <string name="online_tip">Jakmile začnete skenovat, obkroužte objekt. Ujistěte se, že prostředí kolem objektu je co nejjednodušší.</string>
-    <string name="online_coverage">Úplnost skenování:</string>
-    <string name="online_limit">Zdá se, že jste v poslední době provedli příliš velké množství skenů. Zkuste to znovu později.</string>
 
     <!-- Scan dialog !-->
     <string name="scan_1cm">1 cm - Malá místnost</string>

@@ -20,8 +20,6 @@
     <string name="folder_new">Neuer Ordner</string>
     <string name="folder_up">(Übergeordneter Ordner)</string>
     <string name="data_saved">Daten gespeichert als</string>
-    <string name="online_limited">Diese Funktion nutzt einen Online-Cloud-Server. Um den Dienst kostenlos nutzen zu können, müssen Sie sich ein Werbevideo ansehen. Möchten Sie fortfahren?</string>
-    <string name="online_not_available">Die Werbung wurde nicht bis zum Ende angezeigt. Wenn das Problem bestehen bleibt, überprüfen Sie die Internetverbindung oder aktualisieren Sie die App auf die neueste Version.</string>
     <string name="lowend_device">Ihr Gerät ist nicht als Google Depth API Gerät zertifiziert. Die Leistung der App kann eingeschränkt sein.</string>
     <string name="permissions_required">Für die 3D-Scanfunktion werden die Kamera- und Speicherberechtigungen angefordert.</string>
     <string name="policy_accepted">Ich habe die Datenschutzbestimmungen gelesen und akzeptiere sie</string>
@@ -54,7 +52,6 @@
     <string name="mode_realtime">Innen-/Außenscannen</string>
     <string name="mode_dataset">Dataset erfassen</string>
     <string name="mode_face">Gesicht scannen</string>
-    <string name="scan_object">Objekte scannen</string>
     <string name="scan_single_room">Einzelraum scannen</string>
     <string name="scan_large_interior">Großen Innenbereich scannen</string>
     <string name="scan_exterior">Außenbereich scannen</string>
@@ -113,8 +110,6 @@
     </string-array>
     <string name="clearing">Space Clearing</string>
     <string name="clearing_summary">Diese Funktion löscht Daten aus Szenen, die nur vorübergehend sichtbar waren.</string>
-    <string name="information">Informationen</string>
-    <string name="social_networks">Soziale Netzwerke</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Farben</string>
@@ -168,13 +163,6 @@
     <string name="scan_discard">Diese Aktion verwirft den Scan-Fortschritt.</string>
     <string name="scan_finish">Durch Speichern wird der Scanvorgang beendet.</string>
     <string name="scan_rewind">Spulen Sie den Scanvorgang bis zu einem Zustand zurück, von dem aus Sie fortfahren möchten.</string>
-    <string name="online_download">Herunterladen von Daten</string>
-    <string name="online_generating">Erzeugen eines Modells</string>
-    <string name="online_upload">Daten hochladen</string>
-    <string name="online_waiting">Warten auf den Service</string>
-    <string name="online_tip">Sobald Sie mit der Aufnahme beginnen, kreisen Sie um ein Objekt. Achten Sie darauf, dass die Umgebung um das Objekt so einfach wie möglich ist.</string>
-    <string name="online_coverage">Vollständigkeit des Scanns:</string>
-    <string name="online_limit">Es scheint, dass Sie in letzter Zeit eine zu große Anzahl von Scans durchgeführt haben. Versuchen Sie es später noch einmal.</string>
 
     <!-- Scan dialog !-->
     <string name="scan_1cm">1 cm - Kleines Zimmer</string>

@@ -20,8 +20,6 @@
     <string name="folder_new">Új mappa</string>
     <string name="folder_up">(Szülő mappa)</string>
     <string name="data_saved">Az adatok elmentve</string>
-    <string name="online_limited">Ez a funkció online felhőszervereket használ. A szolgáltatás ingyenes használatához meg kell néznie egy videóreklámot. Szeretné folytatni?</string>
-    <string name="online_not_available">A reklámot nem mutatták be a végéig. Ha a problémák továbbra is fennállnak, akkor ellenőrizze az internetkapcsolatot, vagy frissítse az alkalmazást a legújabb verzióra.</string>
     <string name="lowend_device">Az Ön készüléke nem rendelkezik a Google Depth API tanúsítványával. Az alkalmazás teljesítménye korlátozott lehet.</string>
     <string name="permissions_required">A 3D szkennelési funkcióhoz a kamera és a tárolási engedélyek szükségesek.</string>
     <string name="policy_accepted">Elolvastam és elfogadom az adatvédelmi szabályzatot</string>
@@ -54,7 +52,6 @@
     <string name="mode_realtime">Beltéri/kültéri szkennelés</string>
     <string name="mode_dataset">Dataset rögzítés</string>
     <string name="mode_face">Arc szkennelés</string>
-    <string name="scan_object">Tárgyak szkennelése</string>
     <string name="scan_single_room">Egyágyas szoba szkennelése</string>
     <string name="scan_large_interior">Nagy belső szkennelés</string>
     <string name="scan_exterior">Külső szkennelés</string>
@@ -113,8 +110,6 @@
     </string-array>
     <string name="clearing">Helytisztítás</string>
     <string name="clearing_summary">Ez a szolgáltatás törli azokat az adatokat a jelenetből, amelyek csak ideiglenesen voltak láthatóak.</string>
-    <string name="information">Információ</string>
-    <string name="social_networks">Szociális hálózatok</string>
 
     <!-- Editor !-->
     <string name="editor_main_colors">Színek</string>
@@ -168,13 +163,6 @@
     <string name="scan_discard">Ez a művelet elveti a szkennelés folyamatát.</string>
     <string name="scan_finish">A mentés befejezi a szkennelést.</string>
     <string name="scan_rewind">Tekerje vissza a beolvasási folyamatot abba az állapotba, ahonnan folytatni kívánja.</string>
-    <string name="online_download">Adatok letöltése</string>
-    <string name="online_generating">Modell generálása</string>
-    <string name="online_upload">Adatok feltöltése</string>
-    <string name="online_waiting">Várakozás a szolgáltatásra</string>
-    <string name="online_tip">Amint elkezdesz lőni, körözz egy tárgy körül. Győződjön meg róla, hogy a tárgy körüli környezet a lehető legegyszerűbb.</string>
-    <string name="online_coverage">Szkennelés teljessége:</string>
-    <string name="online_limit">Úgy tűnik, túl sok vizsgálatot végeztél mostanában. Próbálja meg később újra.</string>
 
     <!-- Scan dialog !-->
     <string name="scan_1cm">1 cm - Kicsi szoba</string>
